@@ -17,61 +17,83 @@
 <body>
   <header>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"> <img src="/imgs/logo.png" width="15%" height="5%"/></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item dropdown"> 
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Websites
-              </a>
-            </li>
-          </ul>
-        </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home">Home <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Accomplishments">Accomplishments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#video">Video</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Disabled</a>
+          </li>
+        </ul>
       </div>
     </nav>
+    <!-- nav end -->
   </header>
+
   <main>
-    <div class="row justify-content-left text-center mt-5 py-3">
-      <div class="col-12 col-sm-6 col-md-4">
+    <h1>BABE RUTH</h1>
+    <div class="container-fluid">
+    <div class="row  d-flex justify-content-center text-center mt-5 py-3">
+      <div class="col-12 col-sm-6 col-md-4" id="home">
         <div class="card">
-          <img src="/imgs/bat.jpg" class="card-img-top" alt="..." />
+          <img src="/imgs/bat.jpg" class="card-img-top" alt="..."/>
           <div class="card-body">
             <h5 class="card-title">Early Life</h5>
-            <p class="card-text">
-              Babe 
-            </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="https://kids.britannica.com/students/article/Babe-Ruth/276824#:~:text=Ea
+            rly%20Life%20and%20Career,-%C2%A9%20Karen%20Foley&text=He%20had%20a%20difficult%20childhood,run%2Din
+            s%20with%20the%20law." class="btn btn-primary" target="_blank">For more info, Click Here</a>
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-6 m-x-10 justify-content-center"> </div>
+      <div class="col-12 col-md-6 m-x-10 justify-content-center"> 
         <h1 id="Early">
           Babe had a difficult childhood. His father owned and operated a saloon in a tough neighborhood on the Baltimore waterfront. 
           Neither his busy father nor his mother, who was often sickly, had much time for him. The young Ruth roamed the streets and had several run-ins with the law. 
           When he was seven years old, his father placed him in St. Mary’s Industrial School for Boys, a Roman Catholic school for orphans and troubled youth.
         </h1>
-        <div class="row justify-content-center text-center mt-5 py-3">
-          <div class="col-12 col-sm-6 col-md-4">
-            <div class="card">
-              <img src="/imgs/bat.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Early Life</h5>
-                <p class="card-text">
-                  Babe 
-                </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
+      </div>
+    </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row  d-flex justify-content-center text-center mt-5 py-3">
+        <div class="col-12 col-sm-6 col-md-4">
+          <h1 id="Accomplishments">
+            Babe had a difficult childhood. His father owned and operated a saloon in a tough neighborhood on the Baltimore waterfront. 
+            Neither his busy father nor his mother, who was often sickly, had much time for him. 
+          </h1>
+        </div>
+        <div class="col-12 col-md-6 m-x-10 justify-content-center"> 
+          <div class="card">
+            <img src="/imgs/hit.jpg" class="card-img-top" alt="..." width="20%" height="0%" />
+            <div class="card-body">
+              <h5 class="card-title" >Major Accomplishments</h5>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
-          <div class="row justify-content-right text-center mt-5 py-3">
-
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+    <div class="col-lg-8 col-md-8 col-sm-12 bg-secondary p-3" id="video">
+  <iframe width="648" height="461" src="https://www.youtube.com/embed/HkEX0eb2eBo" 
+      title="BABE RUTH&#39;S (1932 WS) CALLED HOME RUN SHOT&#39; RARE VIDEO &amp; COMMENTARY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    </div>
+    </main>
+       
      
 
 
