@@ -9,6 +9,42 @@ body {
 }
 .card {
     background-color: rgb(152, 152, 167);
-    padding: 20px; /* Add padding inside the card */
-    border-radius: 10px; /* Optional: rounded corners */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(196, 19, 19, 0.1);
+    margin-right: auto;
+  margin-left: auto;
+}
+h2 {
+    font-family: "barber-complete", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    font-size: 80px;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(35, 11, 218, 0.9); 
+    transition: 0.3s;
+  }
+  #video {
+    display: flex; 
+    justify-content: center; 
+    iframe {
+      margin-left: 400px; 
+    }
+  }
+  h3 {
+    font-family: "nicholas", sans-serif;
+font-weight: 700;
+font-style: normal;
+    text-align: center;
+    font-size: 50px;
+  }
+  h4 {
+    font-family: "nicholas", sans-serif;
+font-weight: 700;
+font-style: normal;
+    text-align: center;
+    font-size: 30px;
+  }
